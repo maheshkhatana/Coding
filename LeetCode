@@ -1,1 +1,18 @@
+#1 .majority element
+my approch is first sort the array and then return arr[n/2]
 
+best solution approch is check if(count==0) ele =arr[i] and if(ele==nums[i] ) count+=1;else count-=1;
+return element becouse its give the ele who geterer then minority ele.
+
+#2 .Maximum Subarray who have max sum.
+my approch is first running two loops frist from i to n ans sum=0;and second from j=i+1 to n and add sum+=arr[j] then will take max(res,sum) .
+best solution -kadane solution in this solution we will take one for loop and sum+=arr[i] and max(sum,res) ,if(sum<0) sum=0;
+3.bulb switcher - my apporch is its looks like the factor of 1 to 10 count the factor or odd position.
+best approch is take sqrt(n) and of many perfect sqaure in between 1 to n and its floor(n) is ans.
+
+#4.min move and max move?
+
+#5 3d surface area?
+#6 time visiting all points
+my approch travrse every point and count++;
+or max (abs(points[i][0]-points[i+1][0],abs()),and add max in res;.
